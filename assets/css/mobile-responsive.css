@@ -1,0 +1,217 @@
+ 
+
+ @media screen and (max-width:600px) {
+    :root{
+        --primary-color: #0a101e;
+        --secondary-color:#fec544;
+        --third-color:#a9adb8;
+        --primary-font:"Inter", sans-serif;
+        --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+     }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .section-container{
+        width: 93%;
+    }
+    .section-title-sub-heading{
+        display: none;
+    }
+    header{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    .logo{
+        text-align: left;
+        width: 50%;
+        align-self: flex-start;
+        margin: 15px ;
+     
+    }
+    ul{
+        display: none;
+        border-top: 0.5px solid #2729465b;
+        border-bottom: 0.5px solid #2729465b;
+        width: 100%;
+        flex-direction: column;    
+        text-align: left;
+        padding: 10px 0;
+      
+    }
+    ul a{
+        margin: 20px 20px;
+        text-transform: capitalize;
+        color: var(--third-color);
+        width: 100%;
+        display: block;
+    }
+    .mobile-menu{
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 25px;
+    }
+    .mobile-menu i{
+        font-size: 28px;
+        color: rgb(214, 214, 214);
+        cursor: pointer;
+    }
+    .header-icon{
+        display: none;
+    }
+    .container1{
+        height: 90vh;
+        width: 100%;
+        
+    }
+    .c1-column{
+        flex-direction: column;
+    }
+    .c1-row{
+        width: 100%;
+    }
+    .c1-row-cot{
+        width: 95%;
+        margin: auto;
+        /* margin: 0 0 0 15px; */
+    }
+    .c1-column .c1-row:nth-child(2){
+        display: none;
+    }
+    .c1-row-cot h4{
+        font-size: 28px;
+        
+    }
+    .c1-row-cot h1{
+       line-height: 90px;
+        font-size: 92px;
+      
+    }
+    .c1-row-cot h2{
+        font-size: 36px;
+        
+    }
+
+    /* About section */
+    .container2{
+        height: 1600px;
+        width: 100%;
+    }
+    .about-column{
+       flex-direction: column;
+       gap:20px;
+    }
+    .about-row{
+        width: 100%;
+        height: 90vh;    
+    }
+    .about-row h2{
+        font-size: 28px;
+    }
+    .about-row img{
+        width: 100%;
+        height: 100%;
+    }
+    .container3{
+        height: 2200px;
+    }
+    .service-grid-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto ;
+    }
+    .service-grid{
+        padding: 25px 10px 35px;
+    }
+
+
+    .container4{
+        height: 1000px;
+    }
+    .skill-container{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .skills{
+        width: 100%;
+    }
+    .skills h2{
+        font-size: 28px;
+    }
+    .container5{
+        height: 2500px;
+    }
+    .resume-container{
+        flex-direction: column;
+    }
+    .resume-col{
+        width:100%;
+    }
+    .container6{
+        height: 2200px;
+    }
+    .portfolio-col{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    .container7{
+        height: 1300px;  /*  testimonial  */
+    }
+    .review-container{
+       flex-direction: column;
+    }
+    .review-col{
+      width: 100%;
+      
+    }
+    .container8{
+        height: 1300px;
+    }
+    .blog-container{
+        flex-direction: column;
+    }
+    .blog-col{
+        width: 100%;
+        height: max-content;
+
+    }
+    .blog-img{
+        width: 100%;
+        height: 70%;
+        
+    }
+    .blog-img img{
+        width: 100%;
+        height: 100% !important;
+       
+    }
+    .blog-description{
+        height: 30%;
+        width: 100%;  
+    }
+    .container9{
+        height: 1500px;
+    }
+    .contact-container{
+       flex-direction: column;
+      
+    }
+    .contact-col{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .footer-copyright{
+        height: 90px;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .footer-copyright h3{
+     line-height: 30px;
+    }
+ }

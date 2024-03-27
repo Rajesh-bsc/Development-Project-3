@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davis</title>
+    
+    <!-- Link Css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mobile-responsive.css">
+    <!-- Link Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <!-- Link fonts -->
+    <script src="https://kit.fontawesome.com/bd71736a52.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <script>
+       
+    //    Mobile Menu
+    document.addEventListener("DOMContentLoaded", function() {
+        const menu_bar = document.querySelector(".mobile-menu");
+        const open_menu = document.querySelector(".fa-bars");
+        const close_menu = document.querySelector(".fa-xmark");
+        const mobile_list = document.querySelector("header ul");
+        
+        close_menu.style.display = "none";
+
+        open_menu.addEventListener("click", ()=> {
+            mobile_list.classList.toggle("showmenu");
+            open_menu.style.display= "none";
+            close_menu.style.display= "block";
+
+        })
+
+        close_menu.addEventListener("click" , () => {
+            mobile_list.classList.remove("showmenu");
+            open_menu.style.display= "block"
+            close_menu.style.display = "none";
+            
+        })
+    });
+            </script>
+    <!-- Header section  -->
+    <header>
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="logo">
+        </div>
+        <ul>
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#resume">Resume</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+        </ul>
+        <div class="mobile-menu">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="header-icon">
+          <a href="#"><i class="fa-solid fa-phone"></i> +91 99888777665 </a>
+        </div>
+    </header>
+    <!-- Header section End -->
+
+    <div class="container1">
+        <div class="c1-column">
+            <div class="c1-row">
+                <div class="c1-row-cot">
+                    <h4>Hello, I’m</h4>
+                    <h1>Edward Davis</h1>
+                    <h2> Visual Designer</h2>
+                    <button>Hire Me</button>
+                </div>
+                
+            </div>
+            <div class="c1-row">
+                <img src="assets/images/hero-img.jpg" alt="c1-img">
+            </div>
+        </div>
+    </div>
+
+    <!-- About section -->
+<section id="about">
+    <div class="container2">
+        <div class="section-container">
+            <div class="section-title-container"><h4 class="section-title">about me</h4>
+                <h2 class="section-title-sub-heading">about me</h2></div>
+                <div class="about-column">
+                    <div class="about-row">
+                        <img src="assets/images/about.jpg" alt="about-img">
+                    </div>
+                    <div class="about-row">
+                        <h2>Hi There! I'm Edward Davis</h2>
+                        <h4>Visual Designer</h4>
+                        <p>I am a Visual Designer with a strong focus on digital branding. Visul design seeks to attract, inspire, create desires and motivate people to respond to messages, with a view to making a favorable impact.</p>
+                        <ol>
+                            <li><span>Birthday</span> : <span>Nov 10, 2000</span></li>
+                            <li><span>Phone</span> : <span>+91 9999888776</span></li>
+                            <li><span>Email</span> : <span>devis@example.com</span></li>
+                            <li><span>From</span> : <span>1/3 Thanjavur</span></li>
+                            <li><span>Langauge</span> : <span>English, Tamil</span></li>
+                            <li><span>Freelance</span> : <span>Available</span></li>
+                        </ol>
+                        <button>download CV</button>
+                    </div>
+                </div>
+            
+        </div>
+             
+    </div>
+</section>
+
+    <!-- Service Section -->
+<section id="service">
+
+        <div class="container3">
+            <div class="section-container">
+                <div class="section-title-container"><h4 class="section-title">services</h4>
+                    <h2 class="section-title-sub-heading">services</h2></div>
+                    <div class="service-grid-container">
+                        <div class="service-grid">
+                            <i class="fa-solid fa-palette"></i>
+                            <h2> Sketches </h2>
+                            <p> Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.</p>
+                        </div>
+                        <div class="service-grid">
+                            <i class="fa-solid fa-keyboard"></i>
+                            <h2> UI/UX Design </h2>
+                            <p> Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.</p>
+                        </div>
+                        <div class="service-grid">
+                            <i class="fa-solid fa-box-open"></i>
+                            <h2> Product Design </h2>
+                            <p> Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.</p>
+                        </div>
+                        <div class="service-grid">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <h2> App Design </h2>
+                            <p> Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.</p>
+                        </div>
+                        <div class="service-grid">
+                            <i class="fa-solid fa-wand-magic-sparkles"></i>
+                            <h2> Motion Graphics </h2>
+                            <p> Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.</p>
+                        </div>
+                        <div class="service-grid">
+                            <i class="fa-solid fa-desktop"></i>
+                            <h2> Responsive Design </h2>
+                            <p> Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+
+</section>
+
+    <!-- skill section  -->
+
+    <section id="skill">
+        <div class="container4">
+            <div class="section-container">
+                <div class="section-title-container"><h4 class="section-title">My skills</h4>
+                    <h2 class="section-title-sub-heading">my skills</h2></div>
+                    <div class="skill-container">
+                        <div class="skills">
+                            <h2>All the skills that I have in that field of work are mentioned.</h2>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores.</p>
+
+                            <p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
+
+                        </div>
+                        <div class="skills">
+                            <div class="skill-bar">
+                                <div class="skill-title"> <h6>Photoshop</h6> <span>95%</span> </div>
+                                <span class="tollip">
+                                        <span class="tollip-progress"></span>
+                                    
+                                </span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-title"> <h6>Motion Graphic</h6> <span>75%</span> </div>
+                                <span class="tollip">
+                                        <span class="tollip-progress"></span>
+                                    
+                                </span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-title"> <h6>Adobe XD</h6> <span>90%</span> </div>
+                                <span class="tollip">
+                                        <span class="tollip-progress"></span>
+                                    
+                                </span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-title"> <h6>UX Design</h6> <span>85%</span> </div>
+                                <span class="tollip">
+                                        <span class="tollip-progress"></span>
+                                    
+                                </span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-title"> <h6>HTML</h6> <span>80%</span> </div> 
+                                <span class="tollip">
+                                        <span class="tollip-progress"></span>
+                                    
+                                </span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-title"> <h6> Digital Marketing</h6> <span>90%</span> </div> 
+                                <span class="tollip">
+                                        <span class="tollip-progress"></span>
+                                    
+                                </span>
+                            </div>
+                        </div>
+                        <!-- slill bar End -->
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume section -->
+    <section id="resume">
+        <div class="container5">
+            <div class="section-container">
+                <div class="section-title-container"><h4 class="section-title">resume</h4>
+                    <h2 class="section-title-sub-heading">resume</h2></div>
+                    <div class="resume-container">
+                        <div class="resume-col">
+                            <div class="resume-col-title">
+                                <img src="assets/images/resume-icon1.png" alt="resume">
+                                <h2>Experience</h2>
+                            </div>
+                            <div class="resume-col-row">
+                                <div class="resume-row-content">
+                                    <h3>Senior UX/UI Designer</h3>
+                                    <h4>Jan 2020 - Present</h4>
+                                    <h5>Bergnaum, Hills and Howe</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.</p>
+                                </div>
+                            </div>
+                            <div class="resume-col-row">
+                                <div class="resume-row-content">
+                                    <h3>Product Designer</h3>
+                                    <h4>Jan 2016 - December 2019</h4>
+                                    <h5>Langosh, Sipes and Raynor</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.</p>
+                                </div>
+                            </div>
+                            <div class="resume-col-row">
+                                <div class="resume-row-content">
+                                    <h3>UI/UX Designer</h3>
+                                    <h4>Jan 2014 - December 2015</h4>
+                                    <h5>Strosin, Maggio and Homenick</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="resume-col">
+                            <div class="resume-col-title">
+                                <img src="assets/images/resume-icon2.png" alt="resume-icon">
+                                <h2>Education</h2>
+                            </div>
+                            <div class="resume-col-row">
+                                <div class="resume-row-content">
+                                    <h3>Master of Computer Science</h3>
+                                    <h4>2015 - 2016</h4>
+                                    <h5>University of XYZ</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.</p>
+                                </div>
+                            </div>
+                            <div class="resume-col-row">
+                                <div class="resume-row-content">
+                                    <h3>Bachelor of Computer Science</h3>
+                                    <h4>2010 - 2014</h4>
+                                    <h5>University of ABC</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.</p>
+                                </div>
+                            </div>
+                            <div class="resume-col-row">
+                                <div class="resume-row-content">
+                                    <h3>Diploma in Computer Science</h3>
+                                    <h4>2006 - 2010</h4>
+                                    <h5>XYZ Institution</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+            <!-- Portfolio section -->
+            <section id="portfolio">
+
+           
+        <div class="container6">
+            <div class="section-container">
+                <div class="section-title-container"><h4 class="section-title">Portfolios</h4>
+                    <h2 class="section-title-sub-heading">Portfolios</h2></div>
+                    <div class="portfolio-container">
+                        <div class="portfolio-col">
+                            <div class="portfolio-row">
+                                <img src="assets/images/portfolio1.jpg" alt="portfolios">
+                                <div class="portfolio-icon">
+                                    <i class="fa-solid fa-circle-plus"></i>
+                                    
+                                </div>
+                                <div class="portfolio-content">
+                                    <h3>Product Design</h3>
+                                    <span>Design / Marketing</span>
+                                </div>
+                                
+                            </div>
+                            <div class="portfolio-row">
+                                <img src="assets/images/portfolio2.jpg" alt="portfolios">
+                                <div class="portfolio-icon">
+                                    <i class="fa-solid fa-circle-plus"></i>
+                                </div>
+                                <div class="portfolio-content">
+                                    <h3>Product Design</h3>
+                                    <span>Design / Marketing</span>
+                                </div>
+                            </div>
+                            <div class="portfolio-row">
+                                <img src="assets/images/portfolio3.jpg" alt="portfolios">
+                                <div class="portfolio-icon">
+                                    <i class="fa-solid fa-circle-plus"></i>
+                                </div>
+                                <div class="portfolio-content">
+                                    <h3>Product Design</h3>
+                                    <span>Design / Marketing</span>
+                                </div>
+                            </div>
+                            <div class="portfolio-row">
+                                <img src="assets/images/portfolio4.jpg" alt="portfolios">
+                                <div class="portfolio-icon">
+                                    <i class="fa-solid fa-circle-plus"></i>
+                                </div>
+                                <div class="portfolio-content">
+                                    <h3>Product Design</h3>
+                                    <span>Design / Marketing</span>
+                                </div>
+                            </div>
+                            <div class="portfolio-row">
+                                <img src="assets/images/portfolio5.jpg" alt="portfolios">
+                                <div class="portfolio-icon">
+                                    <i class="fa-solid fa-circle-plus"></i>
+                                </div>
+                                <div class="portfolio-content">
+                                    <h3>Product Design</h3>
+                                    <span>Design / Marketing</span>
+                                </div>
+                            </div>
+                            <div class="portfolio-row">
+                                <img src="assets/images/portfolio6.jpg" alt="portfolios">
+                                <div class="portfolio-icon">
+                                    <i class="fa-solid fa-circle-plus"></i>
+                                </div>
+                                <div class="portfolio-content">
+                                    <h3>Product Design</h3>
+                                    <span>Design / Marketing</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <button>load more</button>
+                    </div>
+
+                </div>
+        </div>
+    </section>
+        <!-- Testimonial section -->
+    <section id="reviews">
+        <div class="container7">
+            <div class="section-container">
+                <div class="section-title-container"><h4 class="section-title">reviews</h4>
+                    <h2 class="section-title-sub-heading">reviews</h2></div>
+                    <div class="review-container">
+                        <div class="review-col">
+                            <div class="review-row">
+                                <div class="review-quote">
+                                    <img src="assets/images/quote.png" alt="quote">
+                                </div>
+                                <p>“Lorem ipsum dolor sittem ametamngcing elit, per sed do eiusmoad
+                                    teimpor sittem elit inuning utsed sittem do eiusmod.”</p>
+                            </div>
+                            <div class="review-info"><img src="assets/images/client1.png" alt="review">
+                            <h4>Richard miles</h4>
+                            <h5>chairman</h5>
+                            </div>
+                        </div>
+                        <div class="review-col">
+                            <div class="review-row">
+                                <div class="review-quote">
+                                    <img src="assets/images/quote.png" alt="quote">
+                                </div>
+                                <p>“Lorem ipsum dolor sittem ametamngcing elit, per sed do eiusmoad
+                                    teimpor sittem elit inuning utsed sittem do eiusmod.”</p>
+                            </div>
+                            <div class="review-info"><img src="assets/images/client2.png" alt="review">
+                            <h4>vesta shufelt</h4>
+                            <h5>executive director</h5>
+                            </div>
+                        </div>
+                        <div class="review-col">
+                            <div class="review-row">
+                                <div class="review-quote">
+                                    <img src="assets/images/quote.png" alt="quote">
+                                </div>
+                                <p>“Lorem ipsum dolor sittem ametamngcing elit, per sed do eiusmoad
+                                    teimpor sittem elit inuning utsed sittem do eiusmod.”</p>
+                            </div>
+                            <div class="review-info"><img src="assets/images/client3.png" alt="review">
+                            <h4>Joshep Alves</h4>
+                            <h5>Managing director</h5>
+                            </div>
+                        </div>
+                    </div>
+
+
+            </div>
+    </div>
+
+</section>
+
+
+    <section id="blog">
+        <div class="container8">
+            <div class="section-container">
+                <div class="section-title-container"><h4 class="section-title">Blogs</h4>
+                    <h2 class="section-title-sub-heading">latest news</h2></div>
+                    <div class="blog-container">
+                        <div class="blog-col">
+                            <div class="blog-row">
+                                <div class="blog-img"><img src="assets/images/blog1.jpg" alt="blog"></div>
+                                <div class="blog-description">
+                                    <h6>By:<span> Admin</span> <span> 25-03-2024 </span></h6>
+                                <h3>What are the latest trends in Graphic desgin according to you? </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-col">
+                            <div class="blog-row">
+                                <div class="blog-img"><img src="assets/images/blog2.jpg" alt="blog"></div>
+                                <div class="blog-description">
+                                    <h6>By:<span> Admin</span> <span> 25-03-2024 </span></h6>
+                                <h3> What do you think makes someone a good desginer? </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-col">
+                            <div class="blog-row">
+                                <div class="blog-img"><img src="assets/images/blog3.jpg" alt="blog"></div>
+                                <div class="blog-description">
+                                    <h6>By:<span> Admin</span> <span> 25-03-2024 </span></h6>
+                                <h3>were there any mistakes youv'e made as a designer</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container9">
+            <div class="section-container">
+                <div class="section-title-container"><h4 class="section-title">contact me</h4>
+                    <h2 class="section-title-sub-heading">contact me</h2></div>
+                    <div class="contact-container">
+                        <div class="contact-col">
+                            <div class="contact-col-title"><h2>Just say hello</h2></div>
+                        <div class="contact-form">
+                            <div class="forms-list"><input type="text" placeholder="Your Name" required></div>
+                            <div class="forms-list"><input type="email" placeholder="Your Email" required></div>
+                            <div class="forms-list"><input type="text" placeholder="Your Subject" required></div>
+                            <div class="forms-list"><textarea name="message" id="meg" cols="30" rows="10" placeholder="Your Message"></textarea></div>
+                            <button>send message</button>
+                        </div>
+                        </div>
+                        <div class="contact-col">
+                            <div class="contact-col-title"><h2>Contact Info</h2></div>
+                        <div class="contact-info">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla tincidunt id faucibus sed suscipit feugiat. </p>
+                            <div class="form-info">
+                                <div class="form-info-details-col">
+                                    <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                                    <div class="info-details"> <h3>Email </h3> <li>tag487428@gmail.com </li>
+                                    <li> info@support.com </li></div>
+                                </div>
+                                <div class="form-info-details-col">
+                                    <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+                                    <div class="info-details"> <h3> Phone</h3> 
+                                        <li>+91 99994443322</li> 
+                                        <li>04362-348-249 </li>
+                                    </div>
+                                </div>
+                                <div class="form-info-details-col">
+                                    <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                    <div class="info-details"> <h3>Address </h3> <li> 5/6 A/1, RAJA RAJA CHOLAN NAGAR, </li> 
+                                        <li> Srinivas Puram, Thanjavur</li>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <h4>Visite my social profile and get connected</h4>
+                            <div class="info-details-icon">
+                                <li> <i class="fa-solid fa-basketball"></i></li>
+                                <li> <i class="fa-brands fa-behance"></i> </li>
+                                <li> <i class="fa-brands fa-twitter"></i> </li>
+                                <li> <i class="fa-brands fa-linkedin"></i> </li>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer-copyright">
+       <h3> Copyright © 2024 | Developed by <span>Hashtag Digital Marketing  </span></h3>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+</body>
+</html>
