@@ -132,6 +132,7 @@
 
     .container4{
         height: 1000px;
+     border-bottom: 0.5px solid #2729465b;
     }
     .skill-container{
         flex-direction: column;
