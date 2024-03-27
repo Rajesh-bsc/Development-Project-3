@@ -67,7 +67,7 @@
     .container1{
         height: 80vh;
         width: 100%;
-        
+         border-bottom: 0.5px solid #2729465b;
     }
     .c1-column{
         flex-direction: column;
@@ -118,7 +118,7 @@
         height: 100%;
     }
     .container3{
-        height: 2200px;
+        height: 2100px;
     }
     .service-grid-container{
         grid-template-columns: 1fr;
