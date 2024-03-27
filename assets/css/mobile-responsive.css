@@ -118,7 +118,7 @@
         height: 100%;
     }
     .container3{
-        height: 1900px;
+        height: 2100px;
       border-bottom: 0.5px solid #2729465b;
     }
     .service-grid-container{
@@ -144,7 +144,8 @@
         font-size: 28px;
     }
     .container5{
-        height: 2450px;
+        height: 2300px;
+      border-bottom: 0.5px solid #2729465b;
     }
     .resume-container{
         flex-direction: column;
